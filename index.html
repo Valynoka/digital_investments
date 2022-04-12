@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="ru">
+<head>
+		<meta charset="UTF-8">
+		<meta name="viewport"
+			  content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<link rel="stylesheet" href="./main.css">
+		<title>Test</title>
+</head>
+<body>
+
+<div class="wrapper">
+		<header class="header">
+				<div class="header_top">
+<!--						Сделал обертку, чтобы проще было прозиционировать-->
+						<div class="header_top__wrapper">
+								<nav class="header_top__navigation">
+										<div class="languages">RU
+												<svg class="languages_icon">
+														<use xlink:href="./svg/sprite.svg#triangle"/>
+												</svg>
+												<ul class = "languages__list">
+														<li class="languages__item">RU</li>
+														<li class="languages__item">EN</li>
+												</ul>
+										</div>
+										<ul class="header_top__menu_list">
+												<li class="header_top__menu_item">
+														<a class="header_top__menu_link" href="#">Новости и блог</a>
+												</li>
+												<li class="header_top__menu_item">
+														<a class="header_top__menu_link" href="#">Оплата и доставка</a>
+												</li>
+												<li class="header_top__menu_item">
+														<a class="header_top__menu_link" href="#">Контакты</a>
+												</li>
+												<li class="header_top__menu_item">
+														<a class="header_top__menu_link" href="#">Вакансии</a>
+												</li>
+										</ul>
+								</nav>
+								<div class="header_top__input_wrapper">
+										<svg class="header_top__input_icon">
+												<use xlink:href="./svg/sprite.svg#input_search"/>
+										</svg>
+										<input class="header_top__input"
+											   placeholder="Поиск..."
+										/>
+								</div>
+						</div>
+				</div>
+				<div class="header_bottom">
+						<nav class="header_bottom__navigation">
+								<div class="header_bottom__languages">RU
+										<svg class="languages_icon">
+												<use xlink:href="./svg/sprite.svg#triangle"/>
+										</svg>
+										<ul class = "languages__list">
+												<li class="languages__item">RU</li>
+												<li class="languages__item">EN</li>
+										</ul>
+								</div>
+								<ul class="header_bottom__menu_list">
+										<li class="header_bottom__menu_item">
+												<a class="header_bottom__menu_link" href="#">Каталог</a>
+										</li>
+										<li class="header_bottom__menu_item">Майнинг отель
+												<svg class="header_bottom__menu_mark">
+														<use xlink:href="./svg/sprite.svg#mark"/>
+												</svg>
+												<!--								<a class="burger_menu_link" href="#">Майнинг отель</a>-->
+												<ul class="header_bottom_submenu__list">
+														<li class="header_bottom_submenu__item">
+																<a class="header_bottom_submenu__link">Калининская АЭС</a>
+														</li>
+														<li class="header_bottom_submenu__item">
+																<a class="header_bottom_submenu__link">ПАО "Тулачермет"</a>
+														</li>
+												</ul>
+										</li>
+										<li class="header_bottom__menu_item">
+												<a class="header_bottom__menu_link" href="#">Лизинг</a>
+										</li>
+										<li class="header_bottom__menu_item">
+												<a class="header_bottom__menu_link" href="#">О компании</a>
+										</li>
+								</ul>
+						</nav>
+						<div class="header_bottom__contacts">
+								<ul class="header_bottom__socials_list">
+										<li class="header_bottom__socials_item">
+												<a class="header_bottom__socials_link" href="#">
+														<svg class="header_bottom__socials_icon">
+																<use xlink:href="./svg/sprite.svg#socials_telegram"/>
+														</svg>
+												</a>
+										</li>
+										<li class="header_bottom__socials_item">
+												<a class="header_bottom__socials_link" href="#">
+														<svg class="header_bottom__socials_icon">
+																<use xlink:href="./svg/sprite.svg#socials_whatsApp"/>
+														</svg>
+												</a>
+										</li>
+								</ul>
+								<a class="header_bottom__tell" href="#">+7 (499) 877-41-45
+										<p class="header_bottom__tell_text">Заказать звонок</p>
+								</a>
+						</div>
+						<a class="header_bottom__basket">
+								<svg class="header_bottom__basket_icon">
+										<use xlink:href="./svg/sprite.svg#shopping_crate"/>
+								</svg>
+								<p class="header_bottom__basket_text">Корзина</p>
+						</a>
+				</div>
+		</header>
+		<main>Тут должно быть красиво</main>
+</div>
+<a href="#" class="burger_cross">
+		<span class="burger_cross__plank"></span>
+		<span class="burger_cross__plank"></span>
+		<span class="burger_cross__plank"></span>
+</a>
+<div class="burger_menu">
+		<div class="burger_menu__wrapper">
+				<div class="burger_menu__mobile">
+						<h2 class="burger_menu__title">Меню</h2>
+						<div class="burger_menu__languages">RU
+								<svg class="languages_icon">
+										<use xlink:href="./svg/sprite.svg#triangle"/>
+								</svg>
+								<ul class = "languages__list">
+										<li class="languages__item">RU</li>
+										<li class="languages__item">EN</li>
+								</ul>
+						</div>
+						<div class="burger_menu__input_wrapper">
+								<svg class="burger_menu__input_icon">
+										<use xlink:href="./svg/sprite.svg#input_search"/>
+								</svg>
+								<input class="burger_menu__input"
+									   placeholder="Поиск..."
+								/>
+						</div>
+				</div>
+				<span class="burger_menu__border"></span>
+				<ul class="burger_menu__list">
+						<li class="burger_menu__item">
+								<a class="burger_menu__link" href="#">Каталог</a>
+						</li>
+						<li id="mining_hotel" class="burger_menu__item">Майнинг отель
+								<svg class="burger_menu__item_mark">
+										<use xlink:href="./svg/sprite.svg#triangle"/>
+								</svg>
+<!--								<a class="burger_menu_link" href="#">Майнинг отель</a>-->
+								<ul id="mining_hotel__list1" class="burger_submenu__list">
+										<li class="burger_submenu__item">
+												<a class="burger_submenu__link">Калининская АЭС</a>
+										</li>
+										<li class="burger_submenu__item">
+												<a class="burger_submenu__link">ПАО «Тулачермет»</a>
+										</li>
+								</ul>
+
+						</li>
+						<li class="burger_menu__item">
+								<a class="burger_menu_link" href="#">Лизинг</a>
+						</li>
+						<li class="burger_menu__item">
+								<a class="burger_menu__link" href="#">О компании</a>
+						</li>
+						<li class="burger_menu__item">
+								<a class="burger_menu__link" href="#">Новости и блог</a>
+						</li>
+						<li class="burger_menu__item">
+								<a class="burger_menu__link" href="#">Оплата и доставка</a>
+						</li>
+						<li class="burger_menu__item">
+								<a class="burger_menu__link" href="#">Контакты</a>
+						</li>
+						<li class="burger_menu__item">
+								<a class="burger_menu__link" href="#">Вакансии</a>
+						</li>
+				</ul>
+				<span class="burger_menu__mobile_border"></span>
+				<div class="burger_menu__mobile_contacts">
+						<a class="burger_menu__mobile_tell" href="#">+7 (499) 877-41-45
+								<p class="header_bottom__mobile_tell_text">Заказать звонок</p>
+						</a>
+						<ul class="burger_menu__mobile_socials_list">
+								<li class="burger_menu__mobile_socials_item">
+										<a class="burger_menu__mobile_socials_link" href="#">
+												<svg class="burger_menu__mobile_socials_icon">
+														<use xlink:href="./svg/sprite.svg#socials_telegram"/>
+												</svg>
+										</a>
+								</li>
+								<li class="burger_menu__mobile_socials_item">
+										<a class="burger_menu__mobile_socials_link" href="#">
+												<svg class="burger_menu__mobile_socials_icon">
+														<use xlink:href="./svg/sprite.svg#socials_whatsApp"/>
+												</svg>
+										</a>
+								</li>
+						</ul>
+				</div>
+		</div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="//code.jquery.com/jquery-1.12.4.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="js/burger.js"></script>
+<script src="js/menu_accord.js"></script>
+</body>
+</html>
